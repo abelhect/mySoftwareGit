@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_4c2e36a64ee3a46a92060a385f1a8e228cd8194d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_eb02183d8603d45e942a8e97cc234e11b8d5fafe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_9cfe8e10cae8b2584c7b91ffa003ad050e5d2857.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="62c14f850decc66c670793d1cfcf00831b1a621d">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/instant-run_33f97e54db85ba31682438a27d0d2e74ccc4b53a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_51b7814da41c6dcb4645fb64094f6285fa3eb7dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_e61ed127c3a122d390375d83240e24df07541787.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_c5a7bf42314aaae703fccace075348ce7a049cfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8db1fa4b64119c980aafd12cdf5cf911337be1e2">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TutorialCourtCounterApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_9559dbae24d617b33d28a14f0ad59630a15d6c12.jar" />
+    </item>
+
+</items>

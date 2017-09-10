@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SlideShow</title>
+		<script>
+			var pictures = ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mumbai_03-2016_29_Kamla_Nehru_Park.jpg/449px-Mumbai_03-2016_29_Kamla_Nehru_Park.jpg", 
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pachliopta_pandiyana-Kadavoor-2016-10-18-001.jpg/320px-Pachliopta_pandiyana-Kadavoor-2016-10-18-001.jpg",
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Silver-spotted_skipper_butterfly_%28Hesperia_comma%29_female_underside.jpg/320px-Silver-spotted_skipper_butterfly_%28Hesperia_comma%29_female_underside.jpg",
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Red-billed_streamertail_%28Trochilus_polytmus%29_female_in_flight_2.JPG/320px-Red-billed_streamertail_%28Trochilus_polytmus%29_female_in_flight_2.JPG"];
+
+			function load(){//function that loads the pictures into the body
+				changePic(0);
+			}
+
+			function changePic(n){//function that changes the picture every 5 seconds.  The n parameter is the begining index for the pictures array
+				document.getElementById("image_canvas").getElementsByTagName("img")[0].src = pictures[n % pictures.length]; //using the % pictures.length so it starts at zero after last picture
+				setTimeout(function() {changePic(n+1);}, 5000);
+
+			}
+		</script>
+	</head>
+	<body onload = "load();">
+	<h1 id="myHeader">My Pictures</h1>
+		<div id="image_canvas" style="width:449px;height:599px;margin:0 auto">
+			<img style="height:auto;width:100%"/>
+		</div>
+	</body>
+</html>

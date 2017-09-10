@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tabContainer_id"
+    android:padding="8dp"
+    android:background="@drawable/tab_bg">
+    <!--if we put background the indicator disapears-->
+    <!--android:background="@drawable/custom_bg"-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabImage_id"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabText_id"
+        android:gravity="bottom|center"
+        />
+
+</LinearLayout>

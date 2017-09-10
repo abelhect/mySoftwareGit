@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@color/bright_foreground_material_light</item>
+        <item name="colorPrimary">@color/amber_500</item>
+        <item name="colorAccent">@color/accent_red</item>
+        <item name="colorPrimaryDark">@color/amber_900</item>
+        <item name="android:colorBackground">@color/amber_50</item>
+    </style>
+</resources>

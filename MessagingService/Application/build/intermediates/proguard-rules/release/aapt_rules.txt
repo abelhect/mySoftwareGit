@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:33
+-keep class com.example.android.messagingservice.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.example.android.messagingservice.MessageReadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.android.messagingservice.MessageReplyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.android.messagingservice.MessagingService { <init>(...); }
+

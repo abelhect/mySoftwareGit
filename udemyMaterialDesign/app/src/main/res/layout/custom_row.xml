@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--This is the layout for the RecyclerView list item-->
+
+<!--This is the RippleView Library i am using for the ripple for prior to Lollipop devices-->
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:rv_color="?android:attr/colorActivatedHighlight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+        <!--the custom background uses the ripple and the clickable option is for the action-->
+        <!--but this is not needed on pre-lollipop devices cause i am using the library-->
+        <!--android:background="@drawable/custom_bg"-->
+        <!--android:clickable="true"-->
+
+        <ImageView
+            android:id="@+id/listIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_image_looks_one" />
+
+        <TextView
+            android:id="@+id/listText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="72dp"
+            android:text="Dummy Text"
+            android:textColor="@color/colorSecondaryText" />
+    </RelativeLayout>
+</com.andexert.library.RippleView>

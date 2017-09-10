@@ -1,0 +1,7 @@
+#Sun Nov 13 12:44:16 EST 2016
+base.0=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7090e75f040d6f7d57a8ab51cf95449c1d963e5f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1a89df34c501ed7ed9f4ea8cfd2814ae506533fd/classes.dex
+base.1=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1a89df34c501ed7ed9f4ea8cfd2814ae506533fd
+file.0=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7090e75f040d6f7d57a8ab51cf95449c1d963e5f/classes.dex

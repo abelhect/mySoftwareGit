@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppName</string>
+    <string name="app_logo">AppLogo</string>
+    <string name="app_catchy_phrase">App Catchy Phrase</string>
+    <string name="user_firstname">First Name (Required)</string>
+    <string name="user_lastname">Last Name (Required)</string>
+    <string name="user_username">Username (Required)</string>
+    <string name="password">Password (Required)</string>
+    <string name="repassword">Confirm Password (Required)</string>
+    <string name="title_activity_login">Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="button_text_sign_in">Sign in or Register</string>
+    <string name="button_text_google">Continue with Google</string>
+    <string name="button_text_facebook">Continue with Facebook</string>
+    <string name="button_text_twitter">Continue with Twitter</string>
+
+</resources>

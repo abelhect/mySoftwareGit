@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Customizes the background of the drawer items for v21 and up-->
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <!--need to mask the ripple so that it doesnt spread around the entire layou-->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@android:color/white"/>
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/colorHighlight"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</ripple>

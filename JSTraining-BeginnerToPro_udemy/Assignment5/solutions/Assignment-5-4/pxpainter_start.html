@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jscolor/jscolor.js"></script>
+<style>
+body{
+ font-family: Helvetica, "sans-serif";
+}
+
+#top{
+ width: 100%;
+ height: 75px;
+ background-color : #AAA;
+ font-size: 35px;
+ padding: 0 5px;
+}
+#myCanvas {
+ float: left;
+}
+#menu {
+ float:right;
+ margin: 10px 10px;
+}
+</style>
+<script>
+  var RECT_COLOR = "#FF3300"; //default color
+</script>
+</head>
+<body>
+<div id="top">
+Paint a picture on the canvas below
+</div>
+<canvas id="myCanvas" width="900" height="506" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<div id = "menu">
+ Pick a color: <input id="color_picker_id" class="color" value="ff3300" autocomplete="off" style="color: rgb(0, 0, 0); background-image: none; background-color: rgb(143, 255, 102);width:100px"> <button id="colorset_btn"">Set</button> <br><br>
+ Set your pixel size: <input type="number" style="width:40px;" id="pxsize_id" value="5"> <button id="pxset_btn">Set</button><br><br>
+Set your shape:
+<select type="text" style="width:80px;" id="shape_id">
+	<option value="line">line</option>
+	<option value="circle">circle</option>
+	<option value="square">square</option>
+</select>
+<button id="shapeset_btn">Set</button><br><br>
+
+</div>
+<script>
+	var drawColor = "#ff3300";	//default color on the menu
+	var pixelSize = 5;
+	var shape = "line";
+	var c = document.getElementById("myCanvas");
+	c.addEventListener("mousedown", paintpx); // implement the paintpx function and uncomment this part [HINT]
+	var ctx = document.getElementById("myCanvas").getContext("2d");
+
+	var colorSet = document.getElementById("colorset_btn");
+	colorSet.addEventListener("click", retrieveColor);
+
+	var pixelSet = document.getElementById("pxset_btn");
+	pixelSet.addEventListener("click", retrievePixelSize);
+
+	var shapeSet = document.getElementById("shapeset_btn");
+	shapeSet.addEventListener("click", retrieveShape);
+
+	var Coordinates = {};
+
+	function retrieveColor(){	//action of retrieving the color from the menu
+		drawColor = document.getElementById("color_picker_id").value;
+		drawColor = "#"+drawColor;
+	}
+
+	function retrievePixelSize(){
+		pixelSize = document.getElementById("pxsize_id").value;
+		pixelSize = parseInt(pixelSize);
+	}
+
+	function retrieveShape(){
+		shape = document.getElementById("shape_id").value;
+	}
+
+	function getPosition(event){
+		var x = event.x;
+		var y = event.y;
+
+		x -= c.offsetLeft;
+		y -= c.offsetTop;
+		Coordinates.click = [x, y];
+	}
+
+	function paintpx(event){	//action of painting the canvas with a line
+		getPosition(event);
+
+		switch (shape){
+			case "line":
+			//straight line
+			ctx.moveTo(Coordinates.click[0],Coordinates.click[1]);
+			ctx.lineTo(Coordinates.click[0]+200,Coordinates.click[1]+100);
+			colorAndPixel();
+			break;
+
+			case "circle":
+			//circle of 40px radius
+			ctx.beginPath();
+			ctx.arc(Coordinates.click[0],Coordinates.click[1],40,0,2*Math.PI);
+			colorAndPixel();
+			break;
+
+			case "square":
+			//draws rectangles filled in
+			colorAndPixel();
+			ctx.fillRect(Coordinates.click[0],Coordinates.click[1],pixelSize,pixelSize);
+			break;
+		}
+
+
+		function colorAndPixel(){
+			ctx.strokeStyle = drawColor;
+			ctx.fillStyle = drawColor;
+			ctx.lineWidth = pixelSize;
+			ctx.stroke();
+		}
+
+	}
+	ctx.fillStyle = RECT_COLOR;
+</script>
+</body>
+</html>

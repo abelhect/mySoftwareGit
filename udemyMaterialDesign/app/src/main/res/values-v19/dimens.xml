@@ -1,0 +1,6 @@
+<!--v19 Kitkat customize-->
+<resources>
+    <dimen name="app_bar_top_padding">24dp</dimen>
+    <!--<dimen name="nav_drawer_image_topmargin">48dp</dimen>-->
+    <!--if the drawer was over the app_bar 48dp for topmargin on the drawer image to account for the statusbar size-->
+</resources>

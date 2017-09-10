@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="85affeff75deaaab9dd5958d157f623b233aca19">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7de2e3c9c53d3eab159075ca85f0d9afa4feb81f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f16226f60ced215ea2608495c7f7006fa865f86">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_08f8a80dec99a93c9952ccb7d74002898a2d9de6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_03f78dcb38acbc8402f574882ca5cedbfccf4db2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_f48b129a3e5bd7affa202b17a692bdd514093230/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_fc9b4c4444e7d20977dbfd9d15d7e916e657d632/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/JustJava/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_e9103a89e6aa851d0fc6b83c7e6f49f6614202cb/classes.dex" />
+    </item>
+
+</items>

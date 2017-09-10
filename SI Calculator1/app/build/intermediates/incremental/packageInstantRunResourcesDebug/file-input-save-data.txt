@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Sun Nov 13 12:50:26 EST 2016
+1.base=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_/res/layout/sicalculator.xml
+1.file=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.set=ANDROID_RESOURCE
+2.base=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/sicalculator.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+0.file=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+4.base=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/res/resources-debug.ap_

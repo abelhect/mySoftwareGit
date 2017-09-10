@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Customizes the background of the tab items and adds ripple for v21 and up-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <!--need to mask the ripple so that it doesnt spread around the entire layou-->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@android:color/white"/>
+</ripple>

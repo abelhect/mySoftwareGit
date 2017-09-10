@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SICalculatorActivity">
+
+    <EditText
+        android:id="@+id/principal_amount_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="e.g. 10000, 500, 4"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/principal_amount_id"
+        android:layout_alignStart="@+id/principal_amount_id"
+        android:layout_below="@+id/principal_amount_id"
+        android:layout_marginTop="13dp"
+        android:text="Interest Rate (%)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/number_years_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/interest_rate_id"
+        android:layout_alignStart="@+id/interest_rate_id"
+        android:layout_below="@+id/interest_rate_id"
+        android:layout_marginTop="21dp"
+        android:text="2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/number_years_id"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/number_years_id"
+        android:layout_toRightOf="@+id/number_years_id"
+        android:text="Year(s)"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/number_years_id"
+        android:layout_alignStart="@+id/number_years_id"
+        android:layout_below="@+id/number_years_id"
+        android:max="10"
+        android:progress="0"
+        />
+
+    <TextView
+        android:id="@+id/summary_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar_id"
+        android:layout_alignStart="@+id/seekBar_id"
+        android:layout_below="@+id/seekBar_id"
+        android:layout_marginTop="59dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/calculate_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/summary_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/summary_id"
+        android:layout_marginBottom="19dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Principal Amount ($)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/interest_rate_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="e.g. 3.25, 1.5, 5.0"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:layout_marginTop="@dimen/app_bar_top_padding"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="80dp"
+        android:id="@+id/movie_poster_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Super Cool Title"
+        android:gravity="right"
+        android:id="@+id/movie_title_id"
+        android:layout_toRightOf="@+id/movie_poster_id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Release Date"
+        android:gravity="right"
+        android:id="@+id/movie_date_id"
+        android:layout_below="@+id/movie_title_id"
+        android:layout_toRightOf="@+id/movie_poster_id"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.RatingBar.Small"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/movie_date_id"
+        android:layout_alignParentRight="true"
+        android:gravity="right"/>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<style type="text/css">
+		.red{color:red;}
+	</style>
+	<script type="text/javascript" src="jquery-3.2.1.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('h1').slideToggle(200);
+			})
+		});
+	</script>
+</head>
+<body>
+	<button>Change Text</button>
+	<h1>This is a heading</h1>
+	
+</body>
+</html>
+

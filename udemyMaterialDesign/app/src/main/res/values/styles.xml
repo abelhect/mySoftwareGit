@@ -1,0 +1,19 @@
+<resources>
+
+    <!--Main app theme for all version-->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <!-- Base application theme in order to customer multiple versions. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    
+    <!--<style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">-->
+        <!--<item name="android:textColorPrimary">#FFFFFF</item>-->
+        <!--<item name="android:textColorSecondary">#FFFFFF</item>-->
+    <!--</style>-->
+
+</resources>

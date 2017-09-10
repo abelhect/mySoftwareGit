@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/abelhectMACHOME/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/support-annotations-23.1.0-7954dbb3417462ee43ebe138bfa05f44a6805587.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/classes-ab1990dcf1c9e798f0ca2488535abd057d526cfb.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/classes-ec905ee798ca9e41a0e1e218a93f7bf840bd6f84.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/classes-a32c9440cace631554f769f2bc80ebc6231868fc.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/internal_impl-23.1.0-cfb88d53c8d51e8f08476fd456b0d33cdb7510d7.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/abelhectMACHOME/Documents/TestStudioProjects/CustomNotifications/Application/build/intermediates/pre-dexed/release/internal_impl-23.1.0-73a24a4dacb0d36af9bc367f073682156e2a5ef1.jar" />
+    </item>
+
+</items>

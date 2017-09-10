@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlightSearch</string>
+    <string name="button_caption">Find Flights</string>
+
+    <string-array name="origins">
+        <item>Cork</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Rome</item>
+        <item>Madrid</item>
+    </string-array>
+
+    <string-array name="destinations">
+        <item>New York</item>
+        <item>San Francisco</item>
+        <item>Boston</item>
+        <item>Las Vegas</item>
+        <item>Washington</item>
+    </string-array>
+
+</resources>

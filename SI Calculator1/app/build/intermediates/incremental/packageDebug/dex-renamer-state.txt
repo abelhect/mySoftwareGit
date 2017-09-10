@@ -1,0 +1,7 @@
+#Sun Nov 13 12:50:28 EST 2016
+base.0=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f7deedc27103b5062a8df1cb9761cda7f0a7cbe
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fce3d83b5e6dd2c5f85d4ddade33f490431fb772/classes.dex
+base.1=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fce3d83b5e6dd2c5f85d4ddade33f490431fb772
+file.0=/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f7deedc27103b5062a8df1cb9761cda7f0a7cbe/classes.dex

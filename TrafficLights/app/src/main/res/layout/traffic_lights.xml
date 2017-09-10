@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/light_off"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/yellow_light" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/light_off"
+        android:layout_below="@+id/yellow_light"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/green_light" />
+
+    <Button
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/red_button"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/red_button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/yellow_button"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/green_button"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/light_off"
+        android:id="@+id/red_light"
+        android:layout_above="@+id/yellow_light"
+        android:layout_alignLeft="@+id/yellow_light"
+        android:layout_alignStart="@+id/yellow_light" />
+</RelativeLayout>

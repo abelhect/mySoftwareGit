@@ -1,0 +1,419 @@
+android.support.v4.app.INotificationSideChannel -> a.a.a.a.a:
+    void notify(java.lang.String,int,java.lang.String,android.app.Notification) -> a
+    void cancel(java.lang.String,int,java.lang.String) -> a
+    void cancelAll(java.lang.String) -> a
+android.support.v4.app.INotificationSideChannel$Stub -> a.a.a.a.b:
+    android.support.v4.app.INotificationSideChannel asInterface(android.os.IBinder) -> a
+    android.os.IBinder asBinder() -> asBinder
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+android.support.v4.app.INotificationSideChannel$Stub$Proxy -> a.a.a.a.c:
+    android.os.IBinder mRemote -> a
+    android.os.IBinder asBinder() -> asBinder
+    void notify(java.lang.String,int,java.lang.String,android.app.Notification) -> a
+    void cancel(java.lang.String,int,java.lang.String) -> a
+    void cancelAll(java.lang.String) -> a
+android.support.v4.app.NotificationBuilderWithActions -> a.a.a.a.d:
+    void addAction(android.support.v4.app.NotificationCompatBase$Action) -> a
+android.support.v4.app.NotificationBuilderWithBuilderAccessor -> a.a.a.a.e:
+    android.app.Notification$Builder getBuilder() -> a
+android.support.v4.app.NotificationCompat -> a.a.a.a.f:
+    android.support.v4.app.NotificationCompat$NotificationCompatImpl IMPL -> a
+    void addActionsToBuilder(android.support.v4.app.NotificationBuilderWithActions,java.util.ArrayList) -> b
+    void addStyleToBuilderJellybean(android.support.v4.app.NotificationBuilderWithBuilderAccessor,android.support.v4.app.NotificationCompat$Style) -> b
+    android.os.Bundle getExtras(android.app.Notification) -> a
+    void access$000(android.support.v4.app.NotificationBuilderWithActions,java.util.ArrayList) -> a
+    void access$100(android.support.v4.app.NotificationBuilderWithBuilderAccessor,android.support.v4.app.NotificationCompat$Style) -> a
+    android.support.v4.app.NotificationCompat$NotificationCompatImpl access$200() -> a
+android.support.v4.app.NotificationCompat$Action -> a.a.a.a.g:
+    android.os.Bundle mExtras -> e
+    android.support.v4.app.RemoteInput[] mRemoteInputs -> f
+    int icon -> a
+    java.lang.CharSequence title -> b
+    android.app.PendingIntent actionIntent -> c
+    android.support.v4.app.NotificationCompatBase$Action$Factory FACTORY -> d
+    int getIcon() -> a
+    java.lang.CharSequence getTitle() -> b
+    android.app.PendingIntent getActionIntent() -> c
+    android.os.Bundle getExtras() -> d
+    android.support.v4.app.RemoteInput[] getRemoteInputs() -> e
+    android.support.v4.app.RemoteInputCompatBase$RemoteInput[] getRemoteInputs() -> f
+android.support.v4.app.NotificationCompat$Action$1 -> a.a.a.a.h:
+android.support.v4.app.NotificationCompat$BigPictureStyle -> a.a.a.a.i:
+    android.graphics.Bitmap mPicture -> a
+    android.graphics.Bitmap mBigLargeIcon -> b
+    boolean mBigLargeIconSet -> c
+android.support.v4.app.NotificationCompat$BigTextStyle -> a.a.a.a.j:
+    java.lang.CharSequence mBigText -> a
+android.support.v4.app.NotificationCompat$Builder -> a.a.a.a.k:
+    android.content.Context mContext -> a
+    java.lang.CharSequence mContentTitle -> b
+    java.lang.CharSequence mContentText -> c
+    android.app.PendingIntent mContentIntent -> d
+    android.app.PendingIntent mFullScreenIntent -> e
+    android.widget.RemoteViews mTickerView -> f
+    android.graphics.Bitmap mLargeIcon -> g
+    java.lang.CharSequence mContentInfo -> h
+    int mNumber -> i
+    int mPriority -> j
+    boolean mShowWhen -> k
+    boolean mUseChronometer -> l
+    android.support.v4.app.NotificationCompat$Style mStyle -> m
+    java.lang.CharSequence mSubText -> n
+    int mProgressMax -> o
+    int mProgress -> p
+    boolean mProgressIndeterminate -> q
+    java.lang.String mGroupKey -> r
+    boolean mGroupSummary -> s
+    java.lang.String mSortKey -> t
+    java.util.ArrayList mActions -> u
+    boolean mLocalOnly -> v
+    java.lang.String mCategory -> w
+    android.os.Bundle mExtras -> x
+    int mColor -> y
+    int mVisibility -> z
+    android.app.Notification mPublicVersion -> A
+    android.app.Notification mNotification -> B
+    java.util.ArrayList mPeople -> C
+    android.support.v4.app.NotificationCompat$Builder setWhen(long) -> a
+    android.support.v4.app.NotificationCompat$Builder setSmallIcon(int) -> a
+    android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence) -> a
+    android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence) -> b
+    android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent) -> a
+    android.support.v4.app.NotificationCompat$Builder setLargeIcon(android.graphics.Bitmap) -> a
+    android.os.Bundle getExtras() -> a
+    android.support.v4.app.NotificationCompat$Builder extend(android.support.v4.app.NotificationCompat$Extender) -> a
+    android.app.Notification build() -> b
+    java.lang.CharSequence limitCharSequenceLength(java.lang.CharSequence) -> c
+android.support.v4.app.NotificationCompat$CarExtender -> a.a.a.a.l:
+    android.graphics.Bitmap mLargeIcon -> a
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation mUnreadConversation -> b
+    int mColor -> c
+    android.support.v4.app.NotificationCompat$Builder extend(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.support.v4.app.NotificationCompat$CarExtender setColor(int) -> a
+    android.support.v4.app.NotificationCompat$CarExtender setUnreadConversation(android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation) -> a
+android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation -> a.a.a.a.m:
+    java.lang.String[] mMessages -> b
+    android.support.v4.app.RemoteInput mRemoteInput -> c
+    android.app.PendingIntent mReplyPendingIntent -> d
+    android.app.PendingIntent mReadPendingIntent -> e
+    java.lang.String[] mParticipants -> f
+    long mLatestTimestamp -> g
+    android.support.v4.app.NotificationCompatBase$UnreadConversation$Factory FACTORY -> a
+    java.lang.String[] getMessages() -> a
+    android.support.v4.app.RemoteInput getRemoteInput() -> b
+    android.app.PendingIntent getReplyPendingIntent() -> c
+    android.app.PendingIntent getReadPendingIntent() -> d
+    java.lang.String[] getParticipants() -> e
+    long getLatestTimestamp() -> f
+    android.support.v4.app.RemoteInputCompatBase$RemoteInput getRemoteInput() -> g
+android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$1 -> a.a.a.a.n:
+android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$Builder -> a.a.a.a.o:
+    java.util.List mMessages -> a
+    java.lang.String mParticipant -> b
+    android.support.v4.app.RemoteInput mRemoteInput -> c
+    android.app.PendingIntent mReadPendingIntent -> d
+    android.app.PendingIntent mReplyPendingIntent -> e
+    long mLatestTimestamp -> f
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$Builder addMessage(java.lang.String) -> a
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$Builder setReplyAction(android.app.PendingIntent,android.support.v4.app.RemoteInput) -> a
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$Builder setReadPendingIntent(android.app.PendingIntent) -> a
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation$Builder setLatestTimestamp(long) -> a
+    android.support.v4.app.NotificationCompat$CarExtender$UnreadConversation build() -> a
+android.support.v4.app.NotificationCompat$Extender -> a.a.a.a.p:
+    android.support.v4.app.NotificationCompat$Builder extend(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$InboxStyle -> a.a.a.a.q:
+    java.util.ArrayList mTexts -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImpl -> a.a.a.a.r:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.os.Bundle getExtras(android.app.Notification) -> a
+    android.os.Bundle getBundleForUnreadConversation(android.support.v4.app.NotificationCompatBase$UnreadConversation) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplApi20 -> a.a.a.a.s:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplApi21 -> a.a.a.a.t:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.os.Bundle getBundleForUnreadConversation(android.support.v4.app.NotificationCompatBase$UnreadConversation) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplBase -> a.a.a.a.u:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.os.Bundle getExtras(android.app.Notification) -> a
+    android.os.Bundle getBundleForUnreadConversation(android.support.v4.app.NotificationCompatBase$UnreadConversation) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplGingerbread -> a.a.a.a.v:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplHoneycomb -> a.a.a.a.w:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplIceCreamSandwich -> a.a.a.a.x:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplJellybean -> a.a.a.a.y:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.os.Bundle getExtras(android.app.Notification) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplKitKat -> a.a.a.a.z:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+    android.os.Bundle getExtras(android.app.Notification) -> a
+android.support.v4.app.NotificationCompat$Style -> a.a.a.a.aa:
+    java.lang.CharSequence mBigContentTitle -> d
+    java.lang.CharSequence mSummaryText -> e
+    boolean mSummaryTextSet -> f
+android.support.v4.app.NotificationCompatApi20 -> a.a.a.a.ab:
+    void addAction(android.app.Notification$Builder,android.support.v4.app.NotificationCompatBase$Action) -> a
+android.support.v4.app.NotificationCompatApi20$Builder -> a.a.a.a.ac:
+    android.app.Notification$Builder b -> a
+    android.os.Bundle mExtras -> b
+    void addAction(android.support.v4.app.NotificationCompatBase$Action) -> a
+    android.app.Notification$Builder getBuilder() -> a
+    android.app.Notification build() -> b
+android.support.v4.app.NotificationCompatApi21 -> a.a.a.a.ad:
+    android.os.Bundle getBundleForUnreadConversation(android.support.v4.app.NotificationCompatBase$UnreadConversation) -> a
+    android.app.RemoteInput fromCompatRemoteInput(android.support.v4.app.RemoteInputCompatBase$RemoteInput) -> a
+android.support.v4.app.NotificationCompatApi21$Builder -> a.a.a.a.ae:
+    android.app.Notification$Builder b -> a
+    void addAction(android.support.v4.app.NotificationCompatBase$Action) -> a
+    android.app.Notification$Builder getBuilder() -> a
+    android.app.Notification build() -> b
+android.support.v4.app.NotificationCompatBase -> a.a.a.a.af:
+android.support.v4.app.NotificationCompatBase$Action -> a.a.a.a.ag:
+    int getIcon() -> a
+    java.lang.CharSequence getTitle() -> b
+    android.app.PendingIntent getActionIntent() -> c
+    android.os.Bundle getExtras() -> d
+    android.support.v4.app.RemoteInputCompatBase$RemoteInput[] getRemoteInputs() -> f
+android.support.v4.app.NotificationCompatBase$Action$Factory -> a.a.a.a.ah:
+android.support.v4.app.NotificationCompatBase$UnreadConversation -> a.a.a.a.ai:
+    java.lang.String[] getParticipants() -> e
+    java.lang.String[] getMessages() -> a
+    android.support.v4.app.RemoteInputCompatBase$RemoteInput getRemoteInput() -> g
+    android.app.PendingIntent getReplyPendingIntent() -> c
+    android.app.PendingIntent getReadPendingIntent() -> d
+    long getLatestTimestamp() -> f
+android.support.v4.app.NotificationCompatBase$UnreadConversation$Factory -> a.a.a.a.aj:
+android.support.v4.app.NotificationCompatGingerbread -> a.a.a.a.ak:
+    android.app.Notification add(android.app.Notification,android.content.Context,java.lang.CharSequence,java.lang.CharSequence,android.app.PendingIntent,android.app.PendingIntent) -> a
+android.support.v4.app.NotificationCompatHoneycomb -> a.a.a.a.al:
+    android.app.Notification add(android.content.Context,android.app.Notification,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,android.widget.RemoteViews,int,android.app.PendingIntent,android.app.PendingIntent,android.graphics.Bitmap) -> a
+android.support.v4.app.NotificationCompatIceCreamSandwich -> a.a.a.a.am:
+    android.app.Notification add(android.content.Context,android.app.Notification,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,android.widget.RemoteViews,int,android.app.PendingIntent,android.app.PendingIntent,android.graphics.Bitmap,int,int,boolean) -> a
+android.support.v4.app.NotificationCompatJellybean -> a.a.a.a.an:
+    java.lang.Object sExtrasLock -> a
+    java.lang.reflect.Field sExtrasField -> b
+    boolean sExtrasFieldAccessFailed -> c
+    java.lang.Object sActionsLock -> d
+    void addBigTextStyle(android.support.v4.app.NotificationBuilderWithBuilderAccessor,java.lang.CharSequence,boolean,java.lang.CharSequence,java.lang.CharSequence) -> a
+    void addBigPictureStyle(android.support.v4.app.NotificationBuilderWithBuilderAccessor,java.lang.CharSequence,boolean,java.lang.CharSequence,android.graphics.Bitmap,android.graphics.Bitmap,boolean) -> a
+    void addInboxStyle(android.support.v4.app.NotificationBuilderWithBuilderAccessor,java.lang.CharSequence,boolean,java.lang.CharSequence,java.util.ArrayList) -> a
+    android.util.SparseArray buildActionExtrasMap(java.util.List) -> a
+    android.os.Bundle getExtras(android.app.Notification) -> a
+    android.os.Bundle writeActionAndGetExtras(android.app.Notification$Builder,android.support.v4.app.NotificationCompatBase$Action) -> a
+android.support.v4.app.NotificationCompatJellybean$Builder -> a.a.a.a.ao:
+    android.app.Notification$Builder b -> a
+    android.os.Bundle mExtras -> b
+    java.util.List mActionExtrasList -> c
+    void addAction(android.support.v4.app.NotificationCompatBase$Action) -> a
+    android.app.Notification$Builder getBuilder() -> a
+    android.app.Notification build() -> b
+android.support.v4.app.NotificationCompatKitKat -> a.a.a.a.ap:
+    android.os.Bundle getExtras(android.app.Notification) -> a
+android.support.v4.app.NotificationCompatKitKat$Builder -> a.a.a.a.aq:
+    android.app.Notification$Builder b -> a
+    android.os.Bundle mExtras -> b
+    java.util.List mActionExtrasList -> c
+    void addAction(android.support.v4.app.NotificationCompatBase$Action) -> a
+    android.app.Notification$Builder getBuilder() -> a
+    android.app.Notification build() -> b
+android.support.v4.app.NotificationManagerCompat -> a.a.a.a.ar:
+    int SIDE_CHANNEL_BIND_FLAGS -> a
+    java.lang.Object sEnabledNotificationListenersLock -> b
+    java.lang.String sEnabledNotificationListeners -> c
+    java.util.Set sEnabledNotificationListenerPackages -> d
+    android.content.Context mContext -> e
+    android.app.NotificationManager mNotificationManager -> f
+    java.lang.Object sLock -> g
+    android.support.v4.app.NotificationManagerCompat$SideChannelManager sSideChannelManager -> h
+    android.support.v4.app.NotificationManagerCompat$Impl IMPL -> i
+    android.support.v4.app.NotificationManagerCompat from(android.content.Context) -> a
+    void cancel(int) -> a
+    void cancel(java.lang.String,int) -> a
+    void notify(int,android.app.Notification) -> a
+    void notify(java.lang.String,int,android.app.Notification) -> a
+    java.util.Set getEnabledListenerPackages(android.content.Context) -> b
+    boolean useSideChannelForNotification(android.app.Notification) -> a
+    void pushSideChannelQueue(android.support.v4.app.NotificationManagerCompat$Task) -> a
+    int access$000() -> a
+android.support.v4.app.NotificationManagerCompat$CancelTask -> a.a.a.a.as:
+    java.lang.String packageName -> a
+    int id -> b
+    java.lang.String tag -> c
+    boolean all -> d
+    void send(android.support.v4.app.INotificationSideChannel) -> a
+    java.lang.String toString() -> toString
+android.support.v4.app.NotificationManagerCompat$Impl -> a.a.a.a.at:
+    void cancelNotification(android.app.NotificationManager,java.lang.String,int) -> a
+    void postNotification(android.app.NotificationManager,java.lang.String,int,android.app.Notification) -> a
+    int getSideChannelBindFlags() -> a
+android.support.v4.app.NotificationManagerCompat$ImplBase -> a.a.a.a.au:
+    void cancelNotification(android.app.NotificationManager,java.lang.String,int) -> a
+    void postNotification(android.app.NotificationManager,java.lang.String,int,android.app.Notification) -> a
+    int getSideChannelBindFlags() -> a
+android.support.v4.app.NotificationManagerCompat$ImplEclair -> a.a.a.a.av:
+    void cancelNotification(android.app.NotificationManager,java.lang.String,int) -> a
+    void postNotification(android.app.NotificationManager,java.lang.String,int,android.app.Notification) -> a
+android.support.v4.app.NotificationManagerCompat$ImplIceCreamSandwich -> a.a.a.a.aw:
+    int getSideChannelBindFlags() -> a
+android.support.v4.app.NotificationManagerCompat$NotifyTask -> a.a.a.a.ax:
+    java.lang.String packageName -> a
+    int id -> b
+    java.lang.String tag -> c
+    android.app.Notification notif -> d
+    void send(android.support.v4.app.INotificationSideChannel) -> a
+    java.lang.String toString() -> toString
+android.support.v4.app.NotificationManagerCompat$ServiceConnectedEvent -> a.a.a.a.ay:
+    android.content.ComponentName componentName -> a
+    android.os.IBinder iBinder -> b
+android.support.v4.app.NotificationManagerCompat$SideChannelManager -> a.a.a.a.az:
+    android.content.Context mContext -> a
+    android.os.HandlerThread mHandlerThread -> b
+    android.os.Handler mHandler -> c
+    java.util.Map mRecordMap -> d
+    java.util.Set mCachedEnabledPackages -> e
+    void queueTask(android.support.v4.app.NotificationManagerCompat$Task) -> a
+    boolean handleMessage(android.os.Message) -> handleMessage
+    void handleQueueTask(android.support.v4.app.NotificationManagerCompat$Task) -> b
+    void handleServiceConnected(android.content.ComponentName,android.os.IBinder) -> a
+    void handleServiceDisconnected(android.content.ComponentName) -> a
+    void handleRetryListenerQueue(android.content.ComponentName) -> b
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    void updateListenerMap() -> a
+    boolean ensureServiceBound(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord) -> a
+    void ensureServiceUnbound(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord) -> b
+    void scheduleListenerRetry(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord) -> c
+    void processListenerQueue(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord) -> d
+android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord -> a.a.a.a.ba:
+    android.content.ComponentName componentName -> a
+    boolean bound -> b
+    android.support.v4.app.INotificationSideChannel service -> c
+    java.util.LinkedList taskQueue -> d
+    int retryCount -> e
+android.support.v4.app.NotificationManagerCompat$Task -> a.a.a.a.bb:
+    void send(android.support.v4.app.INotificationSideChannel) -> a
+android.support.v4.app.NotificationManagerCompatEclair -> a.a.a.a.bc:
+    void cancelNotification(android.app.NotificationManager,java.lang.String,int) -> a
+    void postNotification(android.app.NotificationManager,java.lang.String,int,android.app.Notification) -> a
+android.support.v4.app.RemoteInput -> a.a.a.a.bd:
+    java.lang.String mResultKey -> b
+    java.lang.CharSequence mLabel -> c
+    java.lang.CharSequence[] mChoices -> d
+    boolean mAllowFreeFormInput -> e
+    android.os.Bundle mExtras -> f
+    android.support.v4.app.RemoteInput$Impl IMPL -> g
+    android.support.v4.app.RemoteInputCompatBase$RemoteInput$Factory FACTORY -> a
+    java.lang.String getResultKey() -> a
+    java.lang.CharSequence getLabel() -> b
+    java.lang.CharSequence[] getChoices() -> c
+    boolean getAllowFreeFormInput() -> d
+    android.os.Bundle getExtras() -> e
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInput$1 -> a.a.a.a.be:
+android.support.v4.app.RemoteInput$Builder -> a.a.a.a.bf:
+    java.lang.String mResultKey -> a
+    java.lang.CharSequence mLabel -> b
+    java.lang.CharSequence[] mChoices -> c
+    boolean mAllowFreeFormInput -> d
+    android.os.Bundle mExtras -> e
+    android.support.v4.app.RemoteInput$Builder setLabel(java.lang.CharSequence) -> a
+    android.support.v4.app.RemoteInput build() -> a
+android.support.v4.app.RemoteInput$Impl -> a.a.a.a.bg:
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInput$ImplApi20 -> a.a.a.a.bh:
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInput$ImplBase -> a.a.a.a.bi:
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInput$ImplJellybean -> a.a.a.a.bj:
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInputCompatApi20 -> a.a.a.a.bk:
+    android.app.RemoteInput[] fromCompat(android.support.v4.app.RemoteInputCompatBase$RemoteInput[]) -> a
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+android.support.v4.app.RemoteInputCompatBase -> a.a.a.a.bl:
+android.support.v4.app.RemoteInputCompatBase$RemoteInput -> a.a.a.a.bm:
+    java.lang.String getResultKey() -> a
+    java.lang.CharSequence getLabel() -> b
+    java.lang.CharSequence[] getChoices() -> c
+    boolean getAllowFreeFormInput() -> d
+    android.os.Bundle getExtras() -> e
+android.support.v4.app.RemoteInputCompatBase$RemoteInput$Factory -> a.a.a.a.bn:
+android.support.v4.app.RemoteInputCompatJellybean -> a.a.a.a.bo:
+    android.os.Bundle toBundle(android.support.v4.app.RemoteInputCompatBase$RemoteInput) -> a
+    android.os.Bundle[] toBundleArray(android.support.v4.app.RemoteInputCompatBase$RemoteInput[]) -> a
+    android.os.Bundle getResultsFromIntent(android.content.Intent) -> a
+com.example.android.messagingservice.Conversations -> com.example.android.messagingservice.a:
+    java.lang.String[] MESSAGES -> a
+    java.lang.String[] PARTICIPANTS -> b
+    com.example.android.messagingservice.Conversations$Conversation[] getUnreadConversations(int,int) -> a
+    java.util.List makeMessages(int) -> a
+    java.lang.String name() -> a
+com.example.android.messagingservice.Conversations$Conversation -> com.example.android.messagingservice.b:
+    int conversationId -> a
+    java.lang.String participantName -> b
+    java.util.List messages -> c
+    long timestamp -> d
+    int getConversationId() -> a
+    java.lang.String getParticipantName() -> b
+    java.util.List getMessages() -> c
+    long getTimestamp() -> d
+    java.lang.String toString() -> toString
+com.example.android.messagingservice.MainActivity -> com.example.android.messagingservice.MainActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.example.android.messagingservice.MessageLogger -> com.example.android.messagingservice.c:
+    java.text.DateFormat DATE_FORMAT -> a
+    void logMessage(android.content.Context,java.lang.String) -> a
+    android.content.SharedPreferences getPrefs(android.content.Context) -> a
+    java.lang.String getAllMessages(android.content.Context) -> b
+    void clear(android.content.Context) -> c
+com.example.android.messagingservice.MessageReadReceiver -> com.example.android.messagingservice.MessageReadReceiver:
+    java.lang.String TAG -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.example.android.messagingservice.MessageReplyReceiver -> com.example.android.messagingservice.MessageReplyReceiver:
+    java.lang.String TAG -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.CharSequence getMessageText(android.content.Intent) -> a
+com.example.android.messagingservice.MessagingFragment -> com.example.android.messagingservice.d:
+    java.lang.String TAG -> a
+    android.widget.Button mSendSingleConversation -> b
+    android.widget.Button mSendTwoConversations -> c
+    android.widget.Button mSendConversationWithThreeMessages -> d
+    android.widget.TextView mDataPortView -> e
+    android.widget.Button mClearLogButton -> f
+    android.os.Messenger mService -> g
+    boolean mBound -> h
+    android.content.ServiceConnection mConnection -> i
+    android.content.SharedPreferences$OnSharedPreferenceChangeListener listener -> j
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void onClick(android.view.View) -> onClick
+    void onStart() -> onStart
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void sendMsg(int,int) -> a
+    void setButtonsState(boolean) -> a
+    android.os.Messenger access$002(com.example.android.messagingservice.MessagingFragment,android.os.Messenger) -> a
+    boolean access$102(com.example.android.messagingservice.MessagingFragment,boolean) -> a
+    void access$200(com.example.android.messagingservice.MessagingFragment,boolean) -> b
+    android.widget.TextView access$300(com.example.android.messagingservice.MessagingFragment) -> a
+com.example.android.messagingservice.MessagingFragment$1 -> com.example.android.messagingservice.e:
+    com.example.android.messagingservice.MessagingFragment this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.example.android.messagingservice.MessagingFragment$2 -> com.example.android.messagingservice.f:
+    com.example.android.messagingservice.MessagingFragment this$0 -> a
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+com.example.android.messagingservice.MessagingService -> com.example.android.messagingservice.MessagingService:
+    java.lang.String TAG -> a
+    android.support.v4.app.NotificationManagerCompat mNotificationManager -> b
+    android.os.Messenger mMessenger -> c
+    void onCreate() -> onCreate
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    android.content.Intent getMessageReadIntent(int) -> a
+    android.content.Intent getMessageReplyIntent(int) -> b
+    void sendNotification(int,int) -> a
+    void sendNotificationForConversation(com.example.android.messagingservice.Conversations$Conversation) -> a
+    void access$000(com.example.android.messagingservice.MessagingService,int,int) -> a
+com.example.android.messagingservice.MessagingService$IncomingHandler -> com.example.android.messagingservice.g:
+    java.lang.ref.WeakReference mReference -> a
+    void handleMessage(android.os.Message) -> handleMessage

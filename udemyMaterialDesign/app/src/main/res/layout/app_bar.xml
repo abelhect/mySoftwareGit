@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/app_bar_top_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    app:theme="@style/AppTheme"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--app:theme="@style/MyCustomToolBarTheme"-->
+
+    <!--Padding top is for the translucent StatusBar for Kitkat v19 and up-->
+
+    <!--Notes:
+    app:theme is to make the words in the app bar be dark
+    (the word light is to let the system know that the theme is light so the letters should be dark)
+    app:popupTheme is to make the menu settings popup in the app bar be dark rather than white
+    -->
+
+</android.support.v7.widget.Toolbar>

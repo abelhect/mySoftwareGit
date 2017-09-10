@@ -1,0 +1,41 @@
+<!--This is our own layout to use the library dspec-->
+<org.lucasr.dspec.DesignSpecFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:designSpec="@raw/spec">
+    <!--Change the frame layout to relative layout as per the udemy-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:orientation="vertical"
+        tools:context=".fragments.NavigationFragmentDrawer">
+
+        <LinearLayout
+            android:id="@+id/containerDrawerImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F88C00">
+            <!--For profile size image use 40dp width and height-->
+            <!--margingtop for earlier version will be 24dp but for
+             Kitkat v19 and up need to ad 48dp to account for the
+             status bar also-->
+            <ImageView
+                android:id="@+id/drawer_image"
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="@dimen/nav_drawer_image_topmargin"
+                android:src="@drawable/ic_drawer_image" />
+        </LinearLayout>
+        <!--The recycle view is for the list inside the drawer-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/drawerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/containerDrawerImage"/>
+    </RelativeLayout>
+
+</org.lucasr.dspec.DesignSpecFrameLayout>

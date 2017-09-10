@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="240001e1888b098f97dcd6bb9c0dae4614fffcb9">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f7deedc27103b5062a8df1cb9761cda7f0a7cbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b8d9d1ad3e4b15760b57f1df9bf04aafd711525c">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/SI Calculator1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fce3d83b5e6dd2c5f85d4ddade33f490431fb772/classes.dex" />
+    </item>
+
+</items>

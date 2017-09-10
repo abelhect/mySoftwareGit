@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.genericapp.MainActivity">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email (Required)"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password (Required)"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in or Register"
+        android:textStyle="bold" />
+    <!--android:onClick="signin_button"-->
+    <Button
+        android:id="@+id/google_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/google_button"
+        android:text="Sign up with Google"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/facebook_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/facebook_button"
+        android:text="Sign up with Facebook"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/twitter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/twitter_button"
+        android:text="Sign up with Twitter"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_43fdf670d4a7a289e447e93be9191800731ae3ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="076a380fca52c4a89147b8331f4da8e8be6b2dcc">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_50f3c3f2512783347bc9e0de23739e22efe42e8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_605adc299e784bed9f10a7fc7a24836f33fe23a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1142a5bea90d97fa0000348e21d806ad5dc32164">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_41b52a7562243adf8017e6957aaabe9e1a4bc899/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_33e530401247c6ebadc399abf937968fbb096e74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_084f2a5484193aca4fba92493683cd67cb9b9334/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_d5c8382f34e4b34537be37a7e7d80f370c955bd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/TrafficLights/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_701f7d67d74ee11022ba3379affe5e8e7f82e517/classes.dex" />
+    </item>
+
+</items>

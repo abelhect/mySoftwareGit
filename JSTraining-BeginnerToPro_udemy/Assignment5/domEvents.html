@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM Events</title>
+
+		<script type="text/javascript">
+			function changeBckgndColor (){
+				this.style.backgroundColor = "yellow";
+				event.stopPropagation();
+			}
+
+			function load(){
+				document.getElementById("firstPart").onclick = changeBckgndColor;
+				document.getElementById("secondPart").onclick = changeBckgndColor;
+				// document.getElementById("inpuText").onclick = changeBckgndColor;
+				document.getElementById("inpuText").addEventListener('click', changeBckgndColor); //another way to manipulate DOM
+				document.getElementById("google_link").addEventListener('click', function(event){
+					console.log(event);event.preventDefault();});
+			}
+
+			//instead of calling the load function at the body element
+			//can call it with a DOM method event listener
+			window.addEventListener("load", load);
+
+			//test bubble up event handler at the parent node
+			window.addEventListener("click", function(){console.log("clicked on the page");});
+
+		</script>
+
+	</head>
+	<body>
+<!-- 		<body onload = "load();">	commented out when using the addEventListener
+ -->	
+ 	<div>
+		<span id="firstPart">This is the first part of the text.</span>
+		<span id="secondPart">And this is the second part.</span>
+		<form><input id="inpuText" type="text" ></form>
+		<a id = "google_link" href="http://www.google.com">Go to Google</a>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Customization for v19 Kitkat-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--translucent status bar is a nice2have on v19 and up-->
+    </style>
+</resources>

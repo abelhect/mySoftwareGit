@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/abelhectMACHOME/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2_2f68010584dcb46016b8fdf1b8fecbe9d10b730e.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-22.0.0_9aa24fc1d8223ea5918f255d6ca722e23f75b16d.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.0.0_9212bad1bc557e5cb4716d3f6b89d615a6aafd4c.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-22.0.0_d3bd97e4a284785ae2eebdc0e484152b5986f29e.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0_e01587de4301cb8d9361cf572d9e45627abf02dc.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley_ae1f2c62f28fefb0aa4d2f7444bcea09a81e9c69.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-22.0.0_be51f3980527b267f4d23b0fed090b1729cb8b0a.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-22.0.0_e8b8c807102af5ff32100dd9a0816be6d905f7a8.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_8d1c4eb0b3b1f59432db9cdb20ac98d1ef50b2c4.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.0.0_bb415675c2c951ead297ec116000b2f4742f0b23.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_07bb39c00eb232c25f147d8395b3db7189ccebfe.jar" />
+    </item>
+    <item
+        jar="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/Users/abelhectMACHOME/Documents/TrainingStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-22.0.0_00bfc2fcbca04792a612e42632373c63d9a55797.jar" />
+    </item>
+
+</items>
