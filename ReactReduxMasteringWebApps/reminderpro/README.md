@@ -1,8 +1,8 @@
-##ReminderPRO
+## ReminderPRO
 
 Is an application that allows you to create a reminders list with a name for the description of the reminder and the due date.
 
-##Basic features:
+## Basic features:
 1. Create a reminder with description and due date
 2. Delete a reminder
 3. Delete all reminders
