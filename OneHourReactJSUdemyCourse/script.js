@@ -1,3 +1,5 @@
+
+
 //product component that includes state of how many products we are buying
 //what product we are buying and renders the view of the HTML divs
 var Product = React.createClass({
@@ -15,13 +17,14 @@ var Product = React.createClass({
       },
 
   render: function() {
-    return ( < div >
-      < p > {this.props.name} - $ {this.props.price} < /p>
-      < button onClick = {this.buy} > Buy < /button>
-      < button onClick = {this.show} > Show < /button>
-      < h3 > Qty: {this.state.qty} item(s) < /h3>
-      <hr/ >
-    < /div>);
+    return (
+    <div>
+      <p>{this.props.name} - ${this.props.price}</p>
+      <button onClick = {this.buy}> Buy </button>
+      <button onClick = {this.show}> Show </button>
+      <h3> Qty: {this.state.qty} item(s) </h3>
+      <hr/>
+    </div>);
   }
 });
 
@@ -104,7 +107,7 @@ var ProductList = React.createClass({
 
     return ( < div >
     <ProductForm handleCreate={this.createProduct}/>
-       {products} 
+       {products}
       < Total total={this.state.total}/ >
       < /div>
     );

@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10%;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.logo-title-block{
+  display: inline-flex;
+  margin: 10px;
+}
+
+.title{
+  padding: 10px;
+}
+
+.App-title{
+  font-size: 50px;
+}
+
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+  display: inline;
+  margin: 10px;
+}
+
+.Deadline-input{
+  font-size: 25px;
+  margin: 5px;
+}
